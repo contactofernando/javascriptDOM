@@ -1,4 +1,4 @@
-// Seleccionar elementos por su clase 
+// Seleccionar elementos por su clase ...
 
 const header = document.getElementsByClassName('header');
 console.log(header);
@@ -10,6 +10,6 @@ console.log(hero);
 const contenedores = document.getElementsByClassName('contenedor');
 console.log(contenedores);
 
-// SI una clase no existe 
+// SI una clase no existe devuelve un htmlcollection vacio...
 const noExiste = document.getElementsByClassName('no-existe');
 console.log(noExiste);
